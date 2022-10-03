@@ -56,7 +56,7 @@ public class A101_OdemeEkraniSteps {
         ap.findAndSelect("ilce","ÇANKAYA");
         ap.findAndSelect("mahalle","MALTEPE MAH");
         ap.findAndSend("adres","123.Cad No:"+randomGenCode);
-        ap.findAndSend("pastaKodu","06400");
+        //ap.findAndSend("pastaKodu","06400");
         ap.findAndClick("kaydetButton");
         ap.findAndClick("kaydetVeDevamEt");
         ap.findAndClick("garantiPayButton");
